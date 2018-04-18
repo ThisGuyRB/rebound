@@ -65,6 +65,8 @@ def get_language(file_path):
         return '' # Ruby coming soon!
     elif file_path.endswith(".java"):
         return '' # Java coming soon!
+    elif file_path.endswith(".c"):
+        return '' # C is probably way down the line
     else:
         return '' # Unknown language
 
